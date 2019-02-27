@@ -1,9 +1,8 @@
-var animal = 'dog'
 
-function myAnimal(animal) {
+function myAnimal(myanimal) {
+  var myanimal = 'dog'
   return animal
 }
-myAnimal("dog");
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -11,7 +10,6 @@ function yourAnimal() {
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-yourAnimal("cat")
 
 
 function add2(n) {
